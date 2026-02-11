@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+h1, h2, h3, h4, h5, .card-title {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #0dcaf0 !important; 
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(13, 202, 240, 0.5); 
+}
+
+.card-img-top {
+    filter: drop-shadow(0 0 8px rgba(13, 202, 240, 0.3));
+}
+
+#detalleContenedor {
+    background-color: #212529 !important; 
+    border: 2px solid #0dcaf0;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+}
+#detalleContenedor .bg-dark {
+    border: 1px solid #343a40;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+#detalleContenedor p {
+    border-left: 3px solid #0dcaf0;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+
+#detalleContenedor img.mx-2 {
+    transition: transform 0.2s;
+    border: 1px solid #0dcaf0;
+    padding: 2px;
+    background: #fff; 
+}
+
+#detalleContenedor img.mx-2:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #0dcaf0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #212529;
+}
+::-webkit-scrollbar-thumb {
+    background: #0dcaf0;
+    border-radius: 10px;
+}

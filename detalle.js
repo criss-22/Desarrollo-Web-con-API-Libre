@@ -11,7 +11,7 @@ if (digiId) {
             const atributos = digimon.attributes?.map(a => `<div>${a.attribute}</div>`).join('') || 'Desconocido';
             const campos = digimon.fields?.map(f => `
                 <img src="${f.image}" alt="${f.field}" title="${f.field}" width="45" class="mx-2 shadow-sm">
-            `).join('') || 'Sin imagen';
+            `).join('') || 'Sin campos';
             const descripcion = digimon.descriptions?.find(d => d.language === "en_us")?.description || "No hay descripción disponible.";
 
             contenedor.innerHTML = `
